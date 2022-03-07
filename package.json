@@ -1,0 +1,23 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "Hey visitors \r This is my personal projects' repo ,\r everything that I'm learning or trying to build is here \r so you can check it out as well \r GLHF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikherjaitly/Projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikherjaitly/Projects/issues"
+  },
+  "homepage": "https://github.com/shikherjaitly/Projects#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}

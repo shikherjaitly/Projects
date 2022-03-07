@@ -1,0 +1,2 @@
+Use the given link to know more about npm inquirer
+https://www.npmjs.com/package/inquirer

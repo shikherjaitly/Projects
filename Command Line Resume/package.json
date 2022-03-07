@@ -1,0 +1,15 @@
+{
+  "name": "command-line-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CLI_Resume.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
