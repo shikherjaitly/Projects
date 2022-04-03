@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/13126f48b4.js" crossorigin="anonymous"></script>
+    <!-- use the above source to access fonts and icons -->
     <title>To Do List</title>
 </head>
+
 <body>
+
+    <!-- toolbox container  -->
     <div class="toolbox-cont">
         <div class="toolbox-priority-cont">
             <div class="red color"></div>
@@ -27,6 +32,34 @@
             </div>
         </div>
     </div>
+    <!-- ticket box -->
+    <div class="main-cont">
+        <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id"></div>
+            <div class="ticket-area"></div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id"></div>
+            <div class="ticket-area"></div>
+        </div>
+    </div>
+    <!-- model container -->
+    <div class="model-cont">
+        <textarea spellcheck="false" class="textarea-cont" placeholder="Enter your task"></textarea>
+
+        <div class="priority-color-cont">
+            <div class="active red priority-color"></div>
+            <div class="active pink priority-color"></div>
+            <div class="active orange priority-color"></div>
+            <div class="active yellow priority-color"></div>
+        </div>
+    </div>
+
 
 </body>
+<script src="style.js"></script>
+
 </html>
